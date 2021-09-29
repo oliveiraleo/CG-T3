@@ -1,4 +1,4 @@
-import * as THREE from  '../../build/three.module.js';
+import * as THREE from  '../three.module.js';
 import KeyboardState from       '../../libs/util/KeyboardState.js';
 import {//initRenderer, 
     degreesToRadians} from "../util.js";

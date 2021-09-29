@@ -1,18 +1,4 @@
-import * as THREE from '../../build/three.module.js';
-import {TrackballControls} from '../../build/jsm/controls/TrackballControls.js';
-
-/**
- * Get ASCII table code of a given character
- * Use character in uppercase
- *
- * @param {char} ch
- * @returns ASCII code of the caracter
- */
-export function getCode(ch)
-{
-  var code = ch.charCodeAt(0);
-  return code;
-}
+import * as THREE from '../../T3/three.module.js';
 
 /**
  * Convert degrees to radians
