@@ -6,7 +6,7 @@ import {degreesToRadians,
     //degreesToRadians,
     //initDefaultBasicLight,
     //InfoBox
-} from "../../libs/util/util.js";
+} from "../util.js";
 
 
 // Reference URL to all tree parts names

@@ -1,10 +1,10 @@
 import * as THREE from  '../../build/three.module.js';
-import {initRenderer, 
+import {//initRenderer, 
     //createGroundPlaneWired,
-    onWindowResize, 
+    //onWindowResize, 
     degreesToRadians,
     //initDefaultBasicLight,
-    InfoBox} from "/libs/util/util.js";
+    InfoBox} from "../util.js";
 import {OBJLoader} from '../../build/jsm/loaders/OBJLoader.js';
 import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
 

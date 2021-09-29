@@ -1,7 +1,7 @@
 import * as THREE from  '../../build/three.module.js';
 import KeyboardState from       '../../libs/util/KeyboardState.js';
 import {//initRenderer, 
-    degreesToRadians} from "../../libs/util/util.js";
+    degreesToRadians} from "../util.js";
 
 //Varáveis
 let planePositionX = 200.0; // TODO fix airplane position restore from inspection mode
