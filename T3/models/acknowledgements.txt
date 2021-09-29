@@ -1,0 +1,39 @@
+---External objects---
+
+Humvee
+https://free3d.com/pt/3d-model/humvee-vehicle-49947.html
+
+Police car & Racing car
+https://free3d.com/pt/3d-model/cartoon-vehicles-low-poly-cars-free-874937.html
+
+Statue
+https://open3dmodel.com/3d-models/3d-model-owl-couple-garden-statue_109177.html
+
+Cross
+https://free3d.com/3d-model/the-memorial-cross-2051.html
+
+Penguin
+https://free3d.com/3d-model/penguin-v2--128210.html
+
+Cone
+https://free3d.com/3d-model/street-cone-pbr-438608.html
+
+Concrete barrier
+https://free3d.com/3d-model/concrete-road-construction-and-armored-military-barriers-532580.html
+
+Give Way Sign
+https://free3d.com/3d-model/sign-surrenders-indicator-low-poly-for-game-182122.html
+
+Seamless textures
+https://seamless-pixels.blogspot.com
+
+Skybox images
+https://opengameart.org/content/sky-box-sunny-day
+
+---Techniques / Tips & Tricks---
+
+Glass apearance
+https://codepen.io/seanwasere/pen/BjMeqO
+
+Skybox
+https://threejsfundamentals.org/threejs/lessons/threejs-backgrounds.html
