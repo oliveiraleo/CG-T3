@@ -56,7 +56,7 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         var posicaoRua = [(-tamanho/2),(-tamanho/6),(tamanho/6),(tamanho/2)];
         var ruaGeometry = new THREE.PlaneGeometry(tamanhoRua, tamanho+20);
         
-        var asphaultTexture = loader.load('../textures/asphalt.png', function ( asphaultTexture ) {
+        var asphaultTexture = loader.load('../T3/textures/asphalt.png', function ( asphaultTexture ) {
 
             asphaultTexture.wrapS = asphaultTexture.wrapT = THREE.RepeatWrapping;
             asphaultTexture.offset.set( 0, 0 );
@@ -96,7 +96,7 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         let calcadaGeometry = new THREE.BoxGeometry(tamanhoQuadrado, tamanhoQuadrado,0.3);
 
         //
-        const calcadaTexture = loader.load('../textures/city/calcada.jpg');
+        const calcadaTexture = loader.load('../T3/textures/city/calcada.jpg');
 
         //var calcadaMaterial = new THREE.MeshPhongMaterial( { map: calcadaTexture, side: THREE.FrontSide } );
 
@@ -191,7 +191,7 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         var chaoGeometry = new THREE.PlaneGeometry(0.1, 0.1);
         var tetoGeometry = new THREE.PlaneGeometry(tamanho/9, tamanho/9);
         
-        const predioTexture = loader.load('../textures/city/predio1.jpg');
+        const predioTexture = loader.load('../T3/textures/city/predio1.jpg');
         
 
         //marbleTexture.repeat.set( 4, 4 ); 
@@ -200,7 +200,7 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         map: predioTexture
         });
 
-        const tetoTexture = loader.load('../textures/city/cimento.jpg');
+        const tetoTexture = loader.load('../T3/textures/city/cimento.jpg');
         const tetoMaterial = new THREE.MeshLambertMaterial({
             map: tetoTexture
             });
@@ -264,10 +264,10 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         var chaoGeometry = new THREE.PlaneGeometry(0.1, 0.1);
         var tetoGeometry = new THREE.PlaneGeometry(tamanho/9, tamanho/9);
         
-        const marbleTexture = loader.load('../textures/marble.png');
-        const predioTexture = loader.load('../textures/city/predio2.jpg');
-        const predio2Texture = loader.load('../textures/city/predio2.jpg');
-        const tetoTexture = loader.load('../textures/city/cimento.jpg');
+        const marbleTexture = loader.load('../T3/textures/marble.png');
+        const predioTexture = loader.load('../T3/textures/city/predio2.jpg');
+        const predio2Texture = loader.load('../T3/textures/city/predio2.jpg');
+        const tetoTexture = loader.load('../T3/textures/city/cimento.jpg');
 
         //marbleTexture.repeat.set( 4, 4 ); 
 
@@ -417,9 +417,9 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         var chaoGeometry = new THREE.PlaneGeometry(0.1, 0.1);
         var tetoGeometry = new THREE.PlaneGeometry(tamanho/9, tamanho/9);
         
-        const predioTexture = loader.load('../textures/city/predio3.jpg');
-        const tetoTexture = loader.load('../textures/city/cimento.jpg');
-        const heliportoTexture = loader.load('../textures/city/heliporto.jpg');
+        const predioTexture = loader.load('../T3/textures/city/predio3.jpg');
+        const tetoTexture = loader.load('../T3/textures/city/cimento.jpg');
+        const heliportoTexture = loader.load('../T3/textures/city/heliporto.jpg');
         const tetoMaterial = new THREE.MeshLambertMaterial({
             map: tetoTexture
             });
@@ -519,8 +519,8 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
 
         //texture
         
-        const woodTopTexture = loader.load('../textures/city/cimento.jpg');
-        const predioTexture = loader.load('../textures/city/predio4.jpg');
+        const woodTopTexture = loader.load('../T3/textures/city/cimento.jpg');
+        const predioTexture = loader.load('../T3/textures/city/predio4.jpg');
         
 
         //marbleTexture.repeat.set( 4, 4 ); 
@@ -566,8 +566,8 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         var tetoGeometry = new THREE.PlaneGeometry(tamanho/9, tamanho/9);
         
         const marbleTexture = loader.load('textures/marble.png');
-        const predioTexture = loader.load('../textures/city/predio5.jpg');
-        const grafiteTexture = loader.load('../textures/city/grafite.jpg');
+        const predioTexture = loader.load('../T3/textures/city/predio5.jpg');
+        const grafiteTexture = loader.load('../T3/textures/city/grafite.jpg');
         
 
         //marbleTexture.repeat.set( 4, 4 ); 
@@ -580,7 +580,7 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
             map: grafiteTexture
         });
 
-        const tetoTexture = loader.load('../textures/city/cimento.jpg');
+        const tetoTexture = loader.load('../T3/textures/city/cimento.jpg');
         const tetoMaterial = new THREE.MeshLambertMaterial({
             map: tetoTexture
             });
@@ -728,16 +728,16 @@ import {MTLLoader} from '../../build/jsm/loaders/MTLLoader.js';
         //texture
         
 
-        const predioTexture = loader.load('../textures/city/predio6.jpg');
+        const predioTexture = loader.load('../T3/textures/city/predio6.jpg');
         const predioMaterial = new THREE.MeshLambertMaterial({
             map: predioTexture
         });
-        const predio2Texture = loader.load('../textures/city/predio65.jpg');
+        const predio2Texture = loader.load('../T3/textures/city/predio65.jpg');
         const predio2Material = new THREE.MeshLambertMaterial({
             map: predio2Texture
         });
     
-        const tetoTexture = loader.load('../textures/city/cimento.jpg');
+        const tetoTexture = loader.load('../T3/textures/city/cimento.jpg');
         const tetoMaterial = new THREE.MeshLambertMaterial({
             map: tetoTexture
         });

@@ -14,7 +14,7 @@ import {degreesToRadians,
 
 // Materials config
 var loader = new THREE.TextureLoader();
-const folhaTexture = loader.load('../../T3/textures/folhas.jpg', function ( folhaTexture ) {
+const folhaTexture = loader.load('../T3/textures/folhas.jpg', function ( folhaTexture ) {
 
     folhaTexture.wrapS = folhaTexture.wrapT = THREE.RepeatWrapping;
     folhaTexture.offset.set( 2, 0 );
@@ -25,7 +25,7 @@ var folhaMaterial = new THREE.MeshLambertMaterial({
 map: folhaTexture
 });
 
-const pinheiroTexture = loader.load('../../T3/textures/pinheiro.jpg', function ( pinheiroTexture ) {
+const pinheiroTexture = loader.load('../T3/textures/pinheiro.jpg', function ( pinheiroTexture ) {
 
     pinheiroTexture.wrapS = pinheiroTexture.wrapT = THREE.RepeatWrapping;
     pinheiroTexture.offset.set( 2, 0 );
@@ -36,12 +36,12 @@ var pinheiroMaterial = new THREE.MeshLambertMaterial({
 map: pinheiroTexture
 });
 
-const pinheiroTroncoTexture = loader.load('../../T3/textures/tronco.jpg');
+const pinheiroTroncoTexture = loader.load('../T3/textures/tronco.jpg');
 var pinheiroTroncoMaterial = new THREE.MeshLambertMaterial({
 map: pinheiroTroncoTexture
 });
 
-var troncoTexture = loader.load('../../T3/textures/tronco2.jpg');
+var troncoTexture = loader.load('../T3/textures/tronco2.jpg');
 var troncoMaterial = new THREE.MeshLambertMaterial({
 map: troncoTexture
 });
